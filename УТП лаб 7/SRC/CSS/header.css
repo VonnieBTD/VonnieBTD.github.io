@@ -1,0 +1,161 @@
+.header{
+  color: #ffffff;
+
+}
+
+.head-pic{
+	height: 789px;
+  overflow:hidden;
+	margin:0;
+
+}
+
+@media (max-width: 1255px){
+	.head-pic{
+		height: 789px;
+		width: 900px;
+		margin:0;
+	}
+}
+
+@media (max-width: 900px){
+   .head-pic{
+		overflow: hidden;
+		width: 100%;
+		margin:0;
+	}
+}
+
+.head-disc{
+	float: left;
+  clip-path: polygon( 0 0,  100% 0, 100% 100%, 30% 100%);
+	top: 0;
+  right: 0;
+	position: absolute;
+	background-color:#fff;
+	height:789px;
+	width: 40vw;
+  margin-right: 0;
+	padding-left: 7%;
+
+}
+
+
+@media (min-width: 2220px){.head-disc{
+	float: left;
+  clip-path: polygon( 0 0,  100% 0, 100% 100%, 30% 100%);
+	top: 0;
+  right: 0;
+	position: absolute;
+	background-color:#fff;
+	height:789px;
+	width: 40vw;
+  margin-right: 0;
+	padding-left: 15%;
+
+}
+}
+
+.head-header{
+  height: 180px;
+	position: relative;
+	display: inline-block;
+	margin-top: 12%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 1255px){
+  .head-header{
+      height: 180px;
+    	position: relative;
+    	display: inline-block;
+    	margin-top: 12%;
+    	margin-left: auto;
+    	margin-right: auto;
+      margin-bottom: 190px;
+  }
+}
+
+.head-h1{
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	font-family: 'Anton';
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #000;
+
+}
+
+h1 svg,
+h1 svg rect{
+	margin-left: -18px;
+	position: absolute;
+  width: 235px;
+	height: 167px;
+	fill: transparent;
+}
+
+h1 svg rect{
+	stroke: #000;
+	stroke-width: 24px;
+	stroke-dasharray: 500%;
+	stroke-dashoffset: 500%;
+	animation: Bord 1s 0.5s linear forwards;
+}
+
+
+
+.header-paragraph-container{
+  display: inline-block;
+  margin-right: 0;
+  left: 0;
+  width: 80%;
+  height: 400px;
+ 
+  z-index: 5;
+  margin-top: 20%;
+  position: relative;
+  
+}
+
+@media (max-width: 1255px){
+  .header-paragraph-container{
+    margin-right: 0;
+    right: 0;
+    width: 80%;
+    height: 400px;
+    z-index: 5;
+    margin-left: 10%;
+    margin-top: 20px;
+    position: relative;
+  }
+}
+
+
+
+.header-paragraph-space{
+    width: 28%;
+    height: 400px;
+    float: left;
+    shape-outside: polygon(0 0, 0 100%, 100% 100%);
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+@media (max-width: 1255px){
+  .header-paragraph-space{
+      width: 25%;
+      height: 400px;
+      shape-outside: polygon(0 0, 0 100%, 100% 100%);
+      clip-path: polygon(0 0, 0 100%, 100% 100%);
+
+  }
+}
+
+.header-paragraph{
+    float: left;
+  margin-top: 15%;
+  position: relative;
+  border-color: #93b428;
+}

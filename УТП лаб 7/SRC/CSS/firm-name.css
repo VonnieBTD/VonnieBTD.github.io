@@ -1,0 +1,112 @@
+.firm-name-container{
+    text-align: center;
+    height: 1056px;
+    background: rgb(182, 253, 250);
+
+}
+
+.firm-name-logo-container{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 100%;
+    width: 966px;
+    
+}
+
+.firm-name-logo-round{
+    height: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background: #65fafa;
+    clip-path: circle(310px  at 40% 35%);
+    z-index: 2;
+
+}
+
+.firm-name-header{
+    position: relative;
+    top: -60%;
+    left: -10%;
+    width: 850px;
+    height: 200px;
+    transform: rotate(-90deg);
+    font-size: 170px;
+    background-color: #000;
+    z-index: 3;
+    letter-spacing: -0px;
+    text-align: center;
+
+}
+
+.firm-name-header > p{
+    font-family: 'Anton';
+    color: #fff;
+    z-index: 5;
+    position: relative;
+    top: 15%;
+    right: 10%;
+    animation-name: commin-text-name;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+.firm-name-header-shadow{
+    position: relative;
+    top: -72.5%;
+    left: -6%;
+    width: 850px;
+    height: 200px;
+    transform: rotate(-90deg);
+    font-size: 170px;
+    color: #65fafa;
+    z-index: 2;
+    letter-spacing: -0px;
+    text-align: center;
+    font-family: 'Anton';
+}
+
+.firm-name-header-shadow > p{
+    position: relative;
+
+    animation-name: commin-text-name-shadow;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+.firm-name-texture{
+    position: relative;
+    z-index: 2;
+    height: 815px;
+    width: 500px;
+    
+    top: -115%;
+    left: 20%;
+    overflow: hidden;
+}
+
+.firm-name-texture img{
+   vertical-align: middle;
+   transform: rotate(180deg);
+}
+
+.firm-name-description-container{
+   top: -200%;
+   left: 52%;
+   position: relative;
+   font-size: 190px;
+   font-family: 'Anton';
+   z-index: 6;
+   line-height: 0.9;
+   width: 600px;
+   text-align: left;
+}
+
+
+
+
+
+

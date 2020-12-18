@@ -1,0 +1,23 @@
+img{
+
+	margin:0;
+}
+
+@media (max-width: 1255px){
+	img{
+		width: 900px;
+		margin:0;
+	}
+}
+
+@media (max-width: 900px){
+	img{
+		overflow: hidden;
+		width: 700px;
+		margin:0;
+	}
+}
+
+body{
+	margin: 0;
+}

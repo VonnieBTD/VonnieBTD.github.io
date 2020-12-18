@@ -1,0 +1,66 @@
+.services-header{
+  padding-top: 80px;
+  padding-bottom: auto;
+  text-align: center;
+  height: 245px;
+  background: #65fafa;
+  text-align: center;
+}
+
+
+
+.services-header > div >h2{
+
+	font-family: 'Anton';
+	margin: 0;
+	font-size: 85px;
+	color: #000;
+	z-index: 2;
+}
+
+.line-container{
+  transform: translate(-50%, -5px);
+  left: 50%;
+  width: 284px;
+  position: relative;
+  height: 5px;
+}
+
+.animated-line{
+  
+  left: 50%;
+  position: relative;
+  height: 5px;
+  width: 0px;
+  background: #000;
+  animation: line 2s forwards;
+}
+
+
+
+
+
+.services-texture-header{
+  opacity: 0.6;
+  height: 245px;
+  top: 1845px;
+  left: 0% ;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.services-container{
+  height: 789px;
+  background-color: #ffffff;
+  
+}
+
+.cervices-icon{
+  height: 50px;
+  width: 50px;
+  top: 0;
+}
+
+
+
