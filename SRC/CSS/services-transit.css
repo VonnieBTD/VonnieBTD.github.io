@@ -1,0 +1,56 @@
+.services-transit-container{
+    position: absolute;
+    height: 789px;
+    top: 2090px;
+    background: rgb(255, 255, 255);
+    background-image: url(../IMG/textures/home_bg.png) ;
+    z-index: 3;
+    width: 80%;
+    left: 20%;
+  
+    clip-path: polygon( 0 0,  100% 0, 100% 100%, 300px 100%);
+  }
+  
+  .services-transit-container-clicked-garten{
+    position: absolute;
+    height: 789px;
+    top: 2090px;
+    
+    background: rgb(255, 255, 255);
+    
+    z-index: 3;
+    width: 30%;
+    left: 70%;
+    overflow: hidden;
+    clip-path: polygon( 0 0,  100% 0, 100% 100%, 300px 100%);
+  }
+  
+  .services-transit-container-clicked-home{
+    position: absolute;
+    height: 789px;
+    top: 2090px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    
+    z-index: 3;
+    width: 30%;
+    left: 70%;
+  
+    clip-path: polygon( 0 0,  100% 0, 100% 100%, 300px 100%);
+  }
+
+  .transit-bg-img{
+      width: 100%;
+      overflow: hidden;
+    height: 789px;
+    opacity: 0.3;
+    
+  }
+
+  .transit-description{
+  
+    display: block;
+    top: 0;
+    position: absolute;
+    margin-left: 330px;
+  }

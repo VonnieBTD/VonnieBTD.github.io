@@ -1,0 +1,22 @@
+.services-home-container{
+   background: cover;
+    background-color: #65fafa;
+    z-index: 1;
+    height: 789px;
+    background-image: url(../IMG/textures/home_bg.png);
+   
+ }
+
+ .home-bg-img{
+    height: 0px;
+    overflow: visible;
+    width: 0;
+ }
+
+ .home-description{
+  
+   display: block;
+   position: relative;
+   margin-left: 330px;
+ }
+

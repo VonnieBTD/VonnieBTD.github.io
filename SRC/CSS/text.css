@@ -1,0 +1,101 @@
+h1{
+	font-size: 140px;
+	margin: 0;
+	margin-bottom: -7px;
+}
+
+a{
+	text-decoration:  none !important;
+}
+
+.header-description-txt{
+	color: #aba8a8;
+	height: 100px;
+	width: 170px;
+    float:right;
+	font-family: 'Anton';
+	font-size: 22px;
+	margin-top: -6px;
+	margin-left: 22px;
+}
+
+@media (max-width: 1255px){
+  .header-description-txt{
+    color: #aba8a8;
+  	height: 100px;
+  	width: 170px;
+    float:right;
+  	font-family: 'Anton';
+  	font-size: 22px;
+  	margin-top: 20px;
+  	margin-left: 22px;
+    margin-bottom: 70px;
+  }
+}
+
+.header-paragraph-txt{
+  width: 70%;
+  display: block;
+  color: #fff;
+  font-family: 'Anton';
+	font-size: 22px;
+	animation-name: commin-text;
+	animation-duration: 1s;
+	animation-delay: 1s;
+  animation-fill-mode: forwards;
+
+}
+
+.home-header{
+	top: 2440px;
+	left: 3%;
+	transform: rotate(68.5deg);
+	position: absolute;
+	font-family: 'Anton';
+	margin: 0;
+	font-size: 85px;
+	color: #000;
+	z-index: 24;
+}
+
+.garten-header{
+	top: 360px;
+	left: 150px;
+	transform: rotate(68.5deg);
+	position: absolute;
+	font-family: 'Anton';
+	margin: 0;
+	font-size: 85px;
+	color: #000;
+	z-index: 24;
+}
+
+.transit-header{
+	top: 360px;
+	left: 150px;
+	transform: rotate(68.5deg);
+	position: absolute;
+	font-family: 'Anton';
+	margin: 0;
+	font-size: 85px;
+	color: #000;
+	z-index: 24;
+}
+
+.garten-txt{
+	line-height: 70px;
+	font-size: 50px;
+	font-family: 'Anton';
+	display: inline-block;
+	height: 70px;
+	width: 60%;
+}
+
+.transit-txt{
+	line-height: 70px;
+	font-size: 50px;
+	font-family: 'Anton';
+	display: inline-block;
+	height: 70px;
+	width: 70%;
+}
